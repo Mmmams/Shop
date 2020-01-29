@@ -24,9 +24,13 @@ background-color: white;
 .product-element__name{
     font-weight: bold;
     margin-bottom: auto;
+    font-family: 'Rock Salt', cursive;
+    color: rgb(71, 0, 0);
 }
 .product-element__price{
     color: var(--unaccept-color);
+    font-family: 'Rock Salt', cursive;
+    color: rgb(71, 0, 0);
 }
 .product-element__btn{
     background: none;
@@ -34,16 +38,26 @@ background-color: white;
     font-size: inherit;
     cursor: pointer;
     outline: none;
-    border: solid 1px #808080;
     margin-top: var(--spacing-medium);
     padding: var(--spacing-small) var(--spacing-medium);
     border-radius: 3px;
+    background-color: white;
+border: solid 1px blueviolet;
+color: blueviolet;
+font-family: 'Times New Roman', Times, serif;
+font-weight: bolder;
+
 }
 .product-element__btn_active{
     margin-top: var(--spacing-medium);
 border: transparent;
 padding: var(--spacing-small) var(--spacing-medium);
 border-radius: 3px;
-background-color: var(--unaccept-color);
-border: solid 1px #808080;
+background-color: white;
+border: solid 1px rgb(175, 30, 189);
+color: rgb(175, 30, 189);;
+font-family: 'Times New Roman', Times, serif;
+font-weight: bolder;
+
+
 }
