@@ -1,0 +1,49 @@
+.shoping_close{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    right: 20px;
+    top: 20px;
+    background-image: url(img/cross.svg);
+    background-repeat: no-repeat;
+    background-position: center center  ;
+    background-size: contain;
+    cursor: pointer;
+
+}    
+.product_cotnainer{
+ width: 97%;
+ height: 97vh;
+ position: fixed;
+ left: 50%;
+ top: 50%;
+ transform: translate(-50%, -50%);
+ margin: auto;
+ padding: var(--spacing-large);
+ background: black;
+ box-shadow: var(--box-shadow);
+ opacity: 90%;
+ box-shadow: 0 0 10px rgba(225, 0, 255, 0.5);
+}
+.product_element__name{
+color: violet;
+font-weight: bold;
+padding: 10px;
+font-family: 'Rock Salt', cursive;
+}
+.product_element__price{
+color: rgb(187, 100, 187);
+padding: 10px;
+font-family: 'Rock Salt', cursive;
+}
+.product_element__nameALL{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 10px;
+    font-family: 'Rock Salt', cursive;
+    }
+.product_element__priceALL{
+    color: rgb(197, 197, 197);
+    padding: 10px;
+    font-family: 'Rock Salt', cursive;
+    }

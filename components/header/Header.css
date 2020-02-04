@@ -1,6 +1,8 @@
 .header-container{
     display: flex;
-    background-color: black;
+    background: linear-gradient(to right, rgb(159, 57, 226), rgb(3, 19, 112));
+    box-shadow: 0 0 10px rgba(225, 0, 255, 0.5);
+    margin-bottom: 15px;
     color: white;
   height: 50px;
     
@@ -10,5 +12,6 @@
     font-size: 35px;
     font-weight: bold;
     padding-right: 30px;
+    cursor: pointer;
 
 }
